@@ -95,7 +95,9 @@ var _hmt = _hmt || [];
 	  
       
       <div>
-        <center><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script></center>
+		
+		<span id="hitokoto_text"></span>
+		
       </div>
     </div>
   </div>
@@ -437,6 +439,17 @@ var _hmt = _hmt || [];
   } catch (err) {
     console.log(err)
   }
+</script>
+
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto_text')
+      hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+      hitokoto.innerText = data.hitokoto
+    })
+    .catch(console.error)
 </script>
 
 <!-- Tocbot -->
