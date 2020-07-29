@@ -3,7 +3,7 @@
   <entry>
     <title>「hello-world」</title>
     <url>/passage/helloworld/</url>
-    <content><![CDATA[      <p><center>
+    <content><![CDATA[<p><center>
 
 <p>这是第一篇文章</p>
 </center></p>
@@ -62,11 +62,12 @@
 <p>    如果有什么问题，或者有更好的建议，都可以给我发邮件哦。</p>
 ]]></content>
 
-<!--
+
       <categories>
         <category>love&amp;peace</category>
       </categories>
   </entry>
+  <!--
   <entry>
     <title>实现leancloud统计所有文章总访问量的一段js代码</title>
     <url>/88ef7bff/</url>
