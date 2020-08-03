@@ -92,8 +92,8 @@ var _hmt = _hmt || [];
  
 
     </header>
-       <p id="text">17wo</p>
-   <textarea id="input"></textarea>
+       <p id="lstext">17wo</p>
+   <textarea id="lsinput"></textarea>
 
     
     <div class="article-meta">
@@ -110,8 +110,8 @@ var _hmt = _hmt || [];
 
  <script type="text/javascript">
     function copyText() {
-      var text = document.getElementById("text").innerText;
-      var input = document.getElementById("input");
+      var text = document.getElementById("lstext").innerText;
+      var input = document.getElementById("lsinput");
       input.value = text; // 修改文本框的内容
       input.select(); // 选中文本
       document.execCommand("copy"); // 执行浏览器复制命令
