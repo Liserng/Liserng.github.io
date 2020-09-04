@@ -106,8 +106,20 @@ var _hmt = _hmt || [];
   </div>
       
 <input type="button" name="Submit2" value="换 源" class="btn" onclick="window.open('/test/one/')" /> 
-<input type="button" name="Submit2" value="下 载" class="btn" onclick="copyText();window.open('https://cloud.189.cn/t/fMfmQnbimM7f')" /> 
-
+<input type="button" name="Submit2" value="下 载" class="btn" onclick="copyHandle('123');window.open('https://cloud.189.cn/t/fMfmQnbimM7f')" /> 
+<script type="text/javascript">
+function copyHandle(content){
+  let copy = (e)=>{
+      e.preventDefault()
+      e.clipboardData.setData('text/plain',content)
+      alert('复制成功')
+      document.removeEventListener('copy',copy)
+  }
+  document.addEventListener('copy',copy)
+  document.execCommand("Copy");
+}
+</script>
+<!--
  <script type="text/javascript">
     function copyText() {
       var text = document.getElementById("lstext").innerText;
@@ -122,7 +134,7 @@ var _hmt = _hmt || [];
 	document.getElementById("lstext").style.display= "none"; 
 	document.getElementById("lsinput").style.display= "none"; 
  </script>
- 
+ -->
    </div>
     
     <div class="article-entry" itemprop="articleBody">
