@@ -1,4 +1,5 @@
 .ant-breadcrumb
 		{
 			visibility: hidden;
+			height:0px;
 		}
