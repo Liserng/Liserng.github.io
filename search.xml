@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
-  <entry>
-    <title>「hello-world」</title>
-    <url>/passage/helloworld/</url>
-    <content><![CDATA[<p><center>
-
-<p>这是第一篇文章</p>
-</center></p>
-
-<a id="more"></a>
-<hr>
-]]></content>
-      <categories>
-        <category>love&amp;peace</category>
-      </categories>
-  </entry>
-  
-  
   
   <entry>
     <title>如何让笔记本打开应用时不模糊</title>
@@ -490,62 +473,230 @@
 </entry>
 <!--start-->
 <entry>
-	<title></title>
-	<url>/passage//</url>
+	<title>KEY社作品</title>
+	<url>/passage/gm006_KAY/</url>
 	<content>
 		<![CDATA[
-			
-			
+		
+			<div id="header">
+				<center><h1 style="margin-bottom:0;">KEY社作品合集</h1><center>
+			</div>
+			<table>
+			<tr>
+				<th>日文名</th>
+				<th>中文名</th>
+				<th>发售日期</th>
+				<th>链接</th>
+			</tr>
+			<tr>
+				<td colspan="2">MOON.</td>
+				<td>1997.11</td>
+				<td><a href="001_MOON" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td>ONE 〜辉く季节へ〜</td>
+				<td>ONE～辉之季节～</td>
+				<td>1998.5</td>
+				<td><a href="002_ONE" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Kanon</td>
+				<td>1999.6</td>
+				<td><a href="003_Kanon" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">AIR</td>
+				<td>2000.9</td>
+				<td><a href="004_AIR" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">CLANNAD</td>
+				<td>2004.4</td>
+				<td><a href="005_CLANNAD" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td>planetarian ～ちいさなほしのゆめ～</td>
+				<td>星之梦</td>
+				<td>2004.11</td>
+				<td><a href="006_PT" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td>智代アフター</td>
+				<td>智代After</td>
+				<td>2005.11</td>
+				<td><a href="007_ZD" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td>リトルバスターズ!</td>
+				<td>Little Busters!</td>
+				<td>2007.7</td>
+				<td><a href="008_LB" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td>リトルバスターズ!エクスタシー</td>
+				<td>Little Busters! EX</td>
+				<td>2008.7</td>
+				<td><a href="009_LBEX" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td>クドわふたー</td>
+				<td>库特Wafter</td>
+				<td>2010.6</td>
+				<td><a href="010_KT" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Rewrite</td>
+				<td>2011.6</td>
+				<td><a href="011_Re" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Rewrite Harvest Festa</td>
+				<td>2012.7</td>
+				<td><a href="012_RHF" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Angel Beats! -1st beat-</td>
+				<td>2015.6</td>
+				<td><a href="013_1st" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Harmonia</td>
+				<td>2016.9</td>
+				<td><a href="014_Har" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Summer Pockets</td>
+				<td>2018.6</td>
+				<td><a href="015_SP" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">Summer Pockets REFLECTION BLUE</td>
+				<td>2020.6</td>
+				<td><a href="016_SPRB" onclick="return false">链接</a></td>
+			</tr>
+			<tr>
+				<td colspan="2">LOOPERS</td>
+				<td>2021.5</td>
+				<td><a href="017_LOOPERS" onclick="return false">链接(未汉化完全)</a></td>
+			</tr>
+			<tr>
+				<td>planetarian ～雪圏球～</td>
+				<td>星之梦～雪景球～</td>
+				<td>2021.8</td>
+				<td><a href="018_PT" onclick="return false">链接（未发售）</a></td>
+			</tr>
+		</table>
 		
 		]]>
 	</content>
 	<categories>
-		<category></category>
+		<category>galgame</category>
 	</categories>
 </entry>
 <!--start-->
 <entry>
-	<title></title>
-	<url>/passage//</url>
+	<title>魔卡少女樱美化（8.4.5）</title>
+	<url>/passage/mh0001/</url>
 	<content>
 		<![CDATA[
 			
-			
+<p>第一弹炸了，就放这儿了
+<br/>QQ版本：8.4.5
+<br/>主题：魔卡少女樱，鸽了好久的样子
+<br/>三防，然后该有的基本都有
+<br/>主页的低栏是从右下角往左拉
+<br/>可能会无法显示头像、闪退什么的，如果这样就用没有qn的
+<br/>加入了qn模块，在设置中开启（别问我qn是啥，用了就知道）
+<br/>老规矩，侧滑右下角自定义图片、主页悬浮加号、主页顶栏问候语</p>
 		
 		]]>
 	</content>
 	<categories>
-		<category></category>
+		<category>QQ美化</category>
 	</categories>
 </entry>
 <!--start-->
 <entry>
-	<title></title>
-	<url>/passage//</url>
+	<title>魔卡少女樱美化（8.4.8）</title>
+	<url>/passage/mh0002/</url>
 	<content>
 		<![CDATA[
 			
-			
+			<p>第一次更新，之后是否更新看情况
+<br/>QQ版本：8.4.8
+<br/>主题：魔卡少女樱
+<br/>三防，然后该有的基本都有
+<br/>主页的低栏是从右下角往左拉
+<br/>加入了qn模块，在设置中开启（别问我qn是啥，用了就知道）
+<br/>可能会无法显示头像、闪退什么的，如果这样就用没有qn的
+<br/>老规矩，侧滑右下角自定义图片、主页悬浮加号、主页顶栏问候语
+<br/>因为蓝奏云单个文件大小的限制，就压缩了一下</p>
 		
 		]]>
 	</content>
 	<categories>
-		<category></category>
+		<category>QQ美化</category>
 	</categories>
 </entry>
 <!--start-->
 <entry>
-	<title></title>
-	<url>/passage//</url>
+	<title>血小板美化（8.4.8）</title>
+	<url>/passage/mh0003/</url>
 	<content>
 		<![CDATA[
 			
-			
+			<p>国庆划水之作 - 1
+<br/>QQ版本：8.4.8
+<br/>主题：血小板
+<br/>三防，然后该有的基本都有
+<br/>主页的低栏是从右下角往左拉
+<br/>加入了qn模块，在设置中开启（别问我qn是啥，用了就知道）
+<br/>可能会无法显示头像、闪退什么的，如果这样就用没有qn的
+<br/>老规矩，侧滑右下角自定义图片、主页悬浮加号、主页顶栏问候语
+<br/>因为蓝奏云单个文件大小的限制，就压缩了一下</p>
 		
 		]]>
 	</content>
 	<categories>
-		<category></category>
+		<category>QQ美化</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>薇尔莉特美化（8.4.8）</title>
+	<url>/passage/mh0004/</url>
+	<content>
+		<![CDATA[
+			
+			<p>国庆划水之作 - 2
+<br/>QQ版本：8.4.8
+<br/>主题：薇尔莉特
+<br/>三防，然后该有的基本都有
+<br/>主页的低栏是从右下角往左拉
+<br/>加入了qn模块，在设置中开启（别问我qn是啥，用了就知道）
+<br/>可能会无法显示头像、闪退什么的，如果这样就用没有qn的
+<br/>老规矩，侧滑右下角自定义图片、主页悬浮加号、主页顶栏问候语
+<br/>因为蓝奏云单个文件大小的限制，就压缩了一下</p>
+		
+		]]>
+	</content>
+	<categories>
+		<category>QQ美化</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>none</title>
+	<url>/#/</url>
+	<content>
+		<![CDATA[
+			
+			none
+		
+		]]>
+	</content>
+	<categories>
+		<category>none</category>
 	</categories>
 </entry>
  
