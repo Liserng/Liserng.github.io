@@ -15,10 +15,14 @@
         <category>love&amp;peace</category>
       </categories>
   </entry>
+  
+  
+  
   <entry>
     <title>如何让笔记本打开应用时不模糊</title>
-    <url>/passage/00000001/</url>
-    <content><![CDATA[<p>
+    <url>/passage/0001/</url>
+    <content>
+		<![CDATA[<p>
 
 <p>    因为第一次使用笔记本，然后发现有些应用打开来会模糊，问了周围的人，也有这种现象，于是探索了一下。</p>
 
@@ -37,39 +41,318 @@
 
 <p>        1.找到出现模糊的应用，这里以MagicEXIF为例，右键单击该执行文件；</p>
 
-<image src="https://imgkr.cn-bj.ufileos.com/676fe896-c98e-4b93-97e0-9694eeb92e37.png" width="1317px">
-
 <p>        2.在右键菜单中找到“属性”，点进去；</p>
-
-<image src="https://imgkr.cn-bj.ufileos.com/2dd0d7b0-07bb-42de-bcbd-5bf639e26be2.png" width="483px">
 
 <p>        3.点击上方的“兼容性”标签，之后点击“更改高DPI设置”；</p>
 
-<image src="https://imgkr.cn-bj.ufileos.com/29b2be2a-7f40-47cb-9e63-c15f07111e28.png" width="760px">
-
-<image src="https://imgkr.cn-bj.ufileos.com/8e2b9a0a-58db-44dc-822f-eb6dae302da0.png" width="771px">
-
 <p>        4.把红框框出来的那个勾上，再点击“确定”，在属性界面点击“确定”或“应用”均可。再次打开就可以看到修改后的样子了，</p>
-
-<image src="https://imgkr.cn-bj.ufileos.com/64dbe33b-6339-4c16-9e9a-5eec830d7e75.png" width="773"></image>
-
-<image src="https://imgkr.cn-bj.ufileos.com/078741a7-f82d-4c21-8d16-8a8327b5fbd3.png" width="769"></image>
-
-<image src="https://imgkr.cn-bj.ufileos.com/c91f4eba-f843-43a2-a9ed-0b0589ca1ea2.png" width="760"></image>
 
 <p align="right">over</p>
 
 <p>    如果有什么问题，或者有更好的建议，都可以给我发邮件哦。</p>
-]]></content>
-
-
+]]>
+	</content>
       <categories>
-        <category>love&amp;peace</category>
+        <category>小技巧</category>
       </categories>
   </entry>
 
 
+<entry>
+	<title>电脑无限重启以及重置驱动</title>
+	<url>/passage/0002/</url>
+	<content>
+		<![CDATA[
+			
+			<p>在装机以及升级硬件后，往往会出现连续重启。</p>
 
+<p>这个问题最大的麻烦不是对系统、文件有啥影响，而是根本不留给我们充分的时间去检查处理，所以小编的建议就是，干脆重置组件。如果小伙伴手够快的话，点击开始菜单，输入cmd，右键点击并选择“以管理员方式运行”。</p>
+
+<p>在其界面中输入“netsh winsock reset”，等待显示重置成功，并按照提示重启。之后应该就不会再有重启提示了。</p>
+
+<p>操作和打字没有那么快的伙伴也别着急，咱们还有个更“稳定”的界面。</br>在重启开机的时候一直按F8（win7）进入开机界面，选择“疑难解答→高级选项→命令提示符”。之后需要选择账户并输入密码，直接进入有管理员权限的命令提示符模式，输入上面提到的重置命令，重启就好。</br>如下图：</p>
+<tr>
+<center>第一步</center>
+</tr>
+<tr>
+<center>第二步</center>
+</tr>
+<tr>
+<center>第三步</center>
+</tr>
+<tr>
+<center>第四步</center>
+</tr>
+<p>当然，如果怀疑系统中还有其他问题，希望不受影响地整理一下驱动、软件啥的，还可以在刚才提到的“高级选项”界面中选择“启动设置→重启”，然后选择“启用安全模式”、“启用带网络连接的安全模式”或“启动带命令提示符的安全模式”三种模式均可。在这些模式中，我们应该不会再受到“一分钟重启”的干扰，慢慢地执行重置操作，或者详细检查下系统都没问题。</p>
+
+<p align="right">over</p>
+
+<p>如果有什么问题，或者有更好的建议，都可以给我发邮件哦。</p>
+		
+		]]>
+	</content>
+	<categories>
+		<category>小技巧</category>
+	</categories>
+</entry>
+
+<entry>
+	<title>格式工厂 v 5.6.0 绿色版</title>
+	<url>/passage/0003/</url>
+	<content>
+		<![CDATA[
+			
+	<p>
+		<b>格式工厂（Format Factory）</b>是一种多功能的多媒体数据转换器，支持将视频，音频和图像文件从一种格式转换为另一种格式。该程序可以使用的格式列表非常广泛，当然，这里也列出了最受欢迎的格式：</br>
+		视频-MP4、3GP，MPG，AVI，WMV，FLV，SWF，</br>
+		音频-MP3，WMA，AMR，OGG，AAC，WAV，</br>
+		图片-JPG，BMP，PNG，TIF，ICO，GIF，TGA。</br>但这还不是全部。支持转换媒体数据以在苹果，诺基亚，索尼PSP，XBOX等移动设备上使用。那些。您可以指定设备的参数，程序将优化视频，音频或图片，以在便携式设备上获得最佳显示效果和声音。</br>	使用此应用程序非常简单明了。要添加文件进行转换，只需将其拖到工作区中，然后确定所需的格式。在这种情况下，您可以调整所需的质量，数量和其他指标水平。更多有经验和高级的用户可以使用最终文件格式的各个参数的微调。</br>
+		该应用程序还支持使用光学介质DVD / CD，包括翻录，创建ISO映像并将其转换为CSO格式等。当处理大量数据时，可以设置转换优先级。此外，该应用程序还将通过正确排序视频，音乐和照片，帮助您将媒体库中的内容整理整齐。</br>
+		简而言之，该程序是一种多媒体组合，包含用于处理视频，音频和图形文件的所有必要功能和选项：转换，翻录，优化，还原损坏的内容等。</br>
+	</p>
+	<p>
+		|版本特点</br>
+1.在一个分发工具包中组合安装程序或解压缩便携式版本（便携式应用程序格式）</br>
+ 2.删除了安装程序中的Adware和界面中的广告</br>
+ 3.多语言界面（包括俄语/由Dodakaedr和lrepacks补充/）</br>
+ 4.可选地将程序集成到资源管理器上下文菜单中</br>
+ 5.可选地将程序集成到“发送”菜单中</br>
+ 6.拾取外部设置文件settings.reg（如果位于安装程序旁边）</br>
+	</p>
+	<p>
+	<b>|安装说明</b>
+	双击_Silent Install.cmd文件即可
+	</p>
+		
+		]]>
+	</content>
+	<categories>
+		<category>applications</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>Topaz AI Gigapixel 5.4.4 绿色版</title>
+	<url>/passage/0004/</url>
+	<content>
+		<![CDATA[
+			
+			<p>
+		<b>opaz AI Gigapixel</b>是第一个也是唯一一个使用人工智能的功能来放大图像的应用程序，添加自然细节以获得惊人的效果。使用深度学习技术，AIGigapixel™可以放大图像并填写其他尺寸调整产品无法解决的细节。</br>
+		这些传统技术创建的图像模糊，绘画不真实，并且缺少高分辨率图像中存在的细节。</br>		
+<b>|能力</b></br>
+认为只有昂贵的50MP中画幅相机才能提供大质量的图像吗？现在，您可以使用标准的DSLR /无反光镜相机创建100MP甚至1,000MP的照片！您是否希望使用智能手机拍摄的照片质量更高？AIGigapixel™可以将它们转换为100MP大小和16位质量，这看起来只能来自DLSR摄像机。</br>
+
+<b>|灵活性</b>
+拍照后需要更大的灵活性吗？通常，缺乏分辨率会阻止您裁剪图像以将其正确构图。使用AIGigapixel™，您可以裁剪照片，然后简单地将其放大回所需的大小。需要进行大幅面打印，但只能处理小图像吗？增大尺寸时，不要失去质量。现在，您可以以300DPI的高度打印6英尺（1.8m）高的照片。</br>
+
+<b>|机智</b>
+您有一个需要高质量大图像的项目，但您所拥有的只是旧的低分辨率照片。让AIGigapixel™为他们提供新的尺寸和细节。与许多人一样，您的图书馆包含各种来源，例如扫描，无人机镜头，视频帧捕获，下载的图库摄影，搜索引擎图像等。不要因为没有高分辨率的副本而受阻-使一切正常。</br>
+
+<b>|AIGigapixel™如何创建缺失的细节？</b>
+其他图像大小调整软件依靠插值来放大图像。AIGigapixel™与众不同。它使用最先进的“深度学习”方法来放大和增强图像：</br>
+1.要教授低质量结果与高质量结果之间的区别，我们首先收集了数百万张涉及所有主题和风格的照片。</br>
+2.然后，这些照片用于创建一个复杂的神经网络，该网络逐步学习扩大，增强和创建自然细节的最佳方法。</br>
+3.我们专有的AI引擎使用您计算机的图形卡在合理的时间内执行任务。</br>
+</p>
+		
+		]]>
+	</content>
+	<categories>
+		<category>applications</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>9-nine-九次九日九重色</title>
+	<url>/passage/gm0001_9_nine_1/</url>
+	<content>
+		<![CDATA[
+			
+				<div id="container" style="width:800px">
+
+	<div id="header">
+	<h1 style="margin-bottom:0;">9-nine-ここのつここのかここのいろ</h1></div>
+<br>
+	<div id="content" style="height:230px;width:640px;float:left;padding-left: 30px">
+		品牌：ぱれっと<br>
+		发售日期：2017-04-28<br>
+		原画： 和泉つばす ぺろ<br>
+		声优： 澤田なつ&emsp;沢澤砂羽&emsp;夏和小&emsp;渚しろな&emsp;荒井さん。&emsp;ひな葉月&emsp;寺竹順&emsp;紅茶葉&emsp;黒衣虹男&emsp;機知通<br>
+		剧本： かずきふみ<br>
+		音乐： アブカワオサム<br>
+		歌手： 米倉千尋<br>
+		又名： 9-nine-九个九日九色 / 9-nine-九次九日九重色 / 9-nine-:Episode 1<br>
+	
+	</div>
+
+	</div>
+	<div>
+	
+		<h4 style="padding-left:0px">游戏介绍</h4>
+
+	
+		<blockquote>
+			<p>
+				故事简介：
+				<p>白巳津川（しろみつがわ）市，唯一的特色也就仅仅只有作为学园都市这点了。<br>
+					打算招来观光客来进行城市复兴、却毫无作用。<br>
+					但是，却在意想不到的情况下聚集了所有人的视线——</p>
+				<p>态度粗鲁，却有着强烈的责任感和行动力的可靠青年・新海翔（にいみ かける）。<br>
+					虽然嘴巴上会抱怨，但却有着温柔的性格会把周围的事情放在首位。</p>
+				<p>虽然过着普通的学园生活，却没想到因为弄破了祭祀在白蛇九十九神社的神器、而让他的日常产生了变化。<br>
+					并且，在其阴影下还有着觉醒了异能的少年少女。</p>
+				<p>明明只是住在一个毫无特色的街道中、没有任何特点的平凡的学生。<br>
+					新海翔、却被卷入了由异能者们所引发的不幸的命运中。</p>
+				<br>
+				人物介绍：
+				<p>率直努力的庶民派大小姐<br>
+					九條 都 （くじょう みやこ） CV：澤田なつ</p>
+				<br>
+				<p>身長：149cm 三围：B86/ W57/ H82<br>
+					生日：11月2日 血液型：O型 趣味：存钱<br>
+					喜欢：垃圾食品 讨厌：乱花钱</p>
+				<p>白泉学园2年生。主人公的同班同学。<br>
+					世界有名的公司的大小姐、是100个人的话就会有100个人承认的美少女。<br>
+					基本上是一个很可靠的人，但却偶尔会脱脱线，不论在男生还是女生之间都很有人气。<br>
+					虽然本身就是一个有钱人的大小姐、但本人对金钱的感觉却超级庶民化。<br>
+					为了体验生活而在祖父经营的『喫茶ナインボール』中打工。</p>
+				<p>非常信任有着和作为优等生的自己截然不同的思考角度的主人公。<br>
+					对着主人公的话就可以暴露出自己喜欢恶作剧的一面。<br>
+					得到了来源于异世界的不可思议的装饰品“アーティファクト”而觉醒了异能。<br>
+					发挥着与生俱来的正义感为了解决事件而挺身而出。</p>
+				<p>「希望我们能够合作起来。 一起逮捕犯人吧」</p>
+			</p>
+		</blockquote>
+	</div>
+		
+		]]>
+	</content>
+	<categories>
+		<category>galgame</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>9-nine-九次九日九重色</title>
+	<url>/passage/gm0001_9_nine_2/</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category>galgame</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>9-nine-九次九日九重色</title>
+	<url>/passage/gm0001_9_nine_3/</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category>galgame</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>9-nine-九次九日九重色</title>
+	<url>/passage/gm0001_9_nine_4/</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category>galgame</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title>9-nine-新章</title>
+	<url>/passage/gm0001_9_nine_5/</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category>galgame</category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title></title>
+	<url>/passage//</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category></category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title></title>
+	<url>/passage//</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category></category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title></title>
+	<url>/passage//</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category></category>
+	</categories>
+</entry>
+<!--start-->
+<entry>
+	<title></title>
+	<url>/passage//</url>
+	<content>
+		<![CDATA[
+			
+			
+		
+		]]>
+	</content>
+	<categories>
+		<category></category>
+	</categories>
+</entry>
  
+
    
 </search>
