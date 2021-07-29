@@ -100,6 +100,8 @@ textarea {
     height: 54px;
     line-height: 20px;
     border: 1px solid rgba(217, 217, 217, 0.96);
+	border-top-left-radius: 6px; 
+	border-bottom-left-radius: 6px;
 }
 .search-logo {
     width: 40px;
@@ -133,6 +135,9 @@ textarea {
     top: 54px;
     width: 155px;
     border: 1px solid rgba(217, 217, 217, 0.96);
+	border-top-left-radius: 6px; 
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
     background-color: #fff;
 }
 .search-methods li {
@@ -171,9 +176,11 @@ textarea {
     display: none;
     position: absolute;
     width: 837px;
-    top: 55px;
+    top: 54px;
     left: 40px;
     border: 1px solid rgba(187, 187, 187, 1);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
     background-color: #fff;
 }
 .result-item {
@@ -240,6 +247,8 @@ textarea {
     text-align: center;
     font-family: Roboto;
     border: 1px solid #1890ff;
+	border-top-right-radius: 6px; 
+	border-bottom-right-radius: 6px;
     cursor: pointer;
     background: linear-gradient(90deg,#1890FF,#455bfb);
 }
