@@ -24,6 +24,7 @@ $(function () {
     { url: 'http://www.cilimao.cc/search?word=', type: 'cili' },
     { url: 'http://neets.cc/search?key=', type: 'yingyin' },
     { url: 'https://mianbaoshu.cc/search/', type: 'wangpan' },
+    { url: 'https://search.bilibili.com/all?keyword=', type: 'bilibili' },
   ];
   $searchLogo.on('click', function () {
     $searchMethods.show();

@@ -167,6 +167,9 @@ textarea {
 .search-logo.google, li.google {
     background-image: url("./img/scgoogle.png");
 }
+.search-logo.bilibili, li.bilibili {
+    background-image: url("./img/scbilibili.png");
+}
 
 .search-methods .search-item:hover {
     background-color: #f0f0f0;
