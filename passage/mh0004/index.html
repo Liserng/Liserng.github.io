@@ -161,7 +161,9 @@ var _hmt = _hmt || [];
 
 </table>
 
-<br/>喜欢的话要不就请我喝杯奶茶吧(●'◡'●) <a href="/passage/0000/">点这儿</a>
+      <div id="reward-btn">
+        打赏
+      </div>
 </p>
 
 
@@ -213,12 +215,64 @@ var _hmt = _hmt || [];
   
   </nav>
   
-</article>
-</section>
-		
-      <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-  <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
-  <script>
+       
+        <!-- valine评论 --> 
+        <!--
+<div id="vcomments-box">
+	
+    <div id="vcomments">
+    </div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        app_id: 'mLJey1HKsK3JYeN15bxMR0A4-gzGzoHsz',
+        app_key: 'ICpyPTKA9w5RlR5UTydeoKif',
+        path: window.location.pathname,
+        notify: 'false',
+        verify: 'false',
+        avatar: 'monsterid',
+        placeholder: 'Just go go ヾﾉ≧∀≦)o（如果希望收到邮件回复的话，记得填上自己的邮箱～）',
+        recordIP: true
+    });
+    const infoEle = document.querySelector('#vcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #vcomments-box {
+        padding: 5px 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #vcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #vcomments-box #vcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+--> 
+        
+      </article>
+    </section>
+    <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script> 
+    <script>
   var APP_ID='mLJey1HKsK3JYeN15bxMR0A4-gzGzoHsz';
   var APP_KEY='ICpyPTKA9w5RlR5UTydeoKif';
   AV.init({
@@ -274,110 +328,93 @@ var _hmt = _hmt || [];
     
   });
 </script>
-
-<footer class="footer">
-  <div class="outer">
-    <ul>
-      <li>
-        Copyrights &copy;
-        2021
-        <i class="ri-heart-fill heart_icon"></i> Liserng
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-        
-        
-        由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动
-        <span class="division">|</span>
-        主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
-        
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-      </li>
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-      </li>
-    </ul>
-  </div>
-</footer>
-      <div class="float_btns">
-        <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
-</div>
-
+    <footer class="footer">
+      <div class="outer">
+        <ul>
+          <li> Copyrights &copy;
+            2021 <i class="ri-heart-fill heart_icon"></i> Liserng </li>
+        </ul>
+        <ul>
+          <li> 由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动 <span class="division">|</span> 主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a> </li>
+        </ul>
+        <ul>
+          <li> </li>
+        </ul>
+        <ul>
+        </ul>
+        <ul>
+          <li> 
+            <!-- cnzz统计 --> 
+            
+          </li>
+        </ul>
       </div>
-    </main>
-    <aside class="sidebar on">
-      <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/side.svg" alt="Liserng&#39;s Blog"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/about">关于</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="搜索">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
-    </aside>
-    <script>
+    </footer>
+    <div class="float_btns">
+      <div class="totop" id="totop"> <i class="ri-arrow-up-line"></i> </div>
+    </div>
+  </main>
+  <aside class="sidebar on">
+    <button class="navbar-toggle"></button>
+    <nav class="navbar">
+      <div class="logo"> <a href="/"><img src="/images/side.svg" alt="Liserng&#39;s Blog"></a> </div>
+      <ul class="nav nav-main">
+        <li class="nav-item"> <a class="nav-item-link" href="/">主页</a> </li>
+        <li class="nav-item"> <a class="nav-item-link" href="/archives">归档</a> </li>
+        <li class="nav-item"> <a class="nav-item-link" href="/categories">分类</a> </li>
+        <li class="nav-item"> <a class="nav-item-link" href="/friends">友链</a> </li>
+        <li class="nav-item"> <a class="nav-item-link" href="/about">关于</a> </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-bottom">
+      <ul class="nav">
+        <li class="nav-item"> <a class="nav-item-link nav-item-search"  title="搜索"> <i class="ri-search-line"></i> </a> </li>
+      </ul>
+    </nav>
+    <div class="search-form-wrap">
+      <div class="local-search local-search-plugin">
+        <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+        <div id="local-search-result" class="local-search-result"></div>
+      </div>
+    </div>
+  </aside>
+  <script>
       if (window.matchMedia("(max-width: 768px)").matches) {
         document.querySelector('.content').classList.remove('on');
         document.querySelector('.sidebar').classList.remove('on');
       }
     </script>
-    <div id="mask"></div>
+  <div id="mask"></div>
+  
+  <!-- #reward --> 
 
-<script>
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>奶茶一杯 快乐起飞</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="//tvax3.sinaimg.cn/large/006SEBSagy1gz8vjpei58j30fz0fz0ux.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="//tvax3.sinaimg.cn/large/006SEBSagy1gz8vjpmgu7j30g00g0dih.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+  <!-- Subtitle --> 
+  
+  <script>
   try {
     var typed = new Typed("#subtitle", {
       strings: ['2021 夏', '早睡早起 好好生活', '旁观，冷眼看世界'],
@@ -390,14 +427,12 @@ var _hmt = _hmt || [];
   } catch (err) {
     console.log(err)
   }
-</script>
-
-<!-- Tocbot -->
-
-
-<script src="/js/tocbot.min.js"></script>
-
-<script>
+</script> 
+  
+  <!-- Tocbot --> 
+  
+  <script src="/js/tocbot.min.js"></script> 
+  <script>
   tocbot.init({
     tocSelector: '.tocbot',
     contentSelector: '.article-entry',
@@ -409,89 +444,71 @@ var _hmt = _hmt || [];
     positionFixedClass: 'is-position-fixed',
     fixedSidebarOffset: 'auto'
   });
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
-<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
-
-<script src="/dist/main.js"></script>
-
-<!-- ImageViewer -->
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
+</script> 
+  <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script> 
+  <script src="/dist/main.js"></script> 
+  
+  <!-- ImageViewer --> 
+  
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"> 
+    
     <!-- Background of PhotoSwipe. 
          It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
-
+    
     <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
+    <div class="pswp__scroll-wrap"> 
+      
+      <!-- Container that holds slides. 
             PhotoSwipe keeps only 3 of them in the DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+      
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar"> 
+          
+          <!--  Controls are self-explanatory. Order can be changed. -->
+          
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR --> 
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
         </div>
-
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
     </div>
-
-</div>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
-<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
-
-<script>
+  </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script> 
+  <script>
     function viewer_init() {
         let pswpElement = document.querySelectorAll('.pswp')[0];
         let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
@@ -524,11 +541,11 @@ var _hmt = _hmt || [];
         })
     }
     viewer_init()
-</script>
-
-<!-- MathJax -->
-
-<script type="text/x-mathjax-config">
+</script> 
+  
+  <!-- MathJax --> 
+  
+  <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
       tex2jax: {
           inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
@@ -543,36 +560,27 @@ var _hmt = _hmt || [];
           all[i].SourceElement().parentNode.className += ' has-jax';
       }
   });
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
+</script> 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> 
+  <script>
   var ayerConfig = {
     mathjax: true
   }
-</script>
-
-<!-- Katex -->
-
-
-    
-
-
-<!-- busuanzi  -->
-
-<!-- ClickLove -->
-
-
-<script src="/js/clickLove.js"></script>
-
-
-<!-- CodeCopy -->
-
-
-<link rel="stylesheet" href="/css/clipboard.css">
-
-<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-<script>
+</script> 
+  
+  <!-- Katex --> 
+  
+  <!-- busuanzi  --> 
+  
+  <!-- ClickLove --> 
+  
+  <script src="/js/clickLove.js"></script> 
+  
+  <!-- CodeCopy -->
+  
+  <link rel="stylesheet" href="/css/clipboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> 
+  <script>
   function wait(callback, seconds) {
     var timelag = null;
     timelag = window.setTimeout(callback, seconds);
@@ -624,16 +632,42 @@ var _hmt = _hmt || [];
     }
     initCopyCode();
   }(window, document);
+</script> 
+</div>
+
+<!-- 漂亮雪花 --> 
+<!-- 
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/snow.js"></script>
+<style type="text/css">
+.snow-container{
+position:fixed;
+top:0;left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+z-index:100001;
+}
+</style>
+<div class="snow-container"></div>
+ --> 
+
+<!--百度自动递交链接--> 
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
 </script>
-
-
-
-    
-  </div>
-
-
 </body>
-
 
 <!--live2d-->
 
