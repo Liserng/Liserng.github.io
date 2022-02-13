@@ -6,9 +6,15 @@
         "avatar": "//tvax3.sinaimg.cn/large/006SEBSagy1gtgk7kgkc3j30280283ya.jpg"
     },
 	{
+        "name": "随机图片",
+        "site": "//img.liserng.xyz/",
+        "info": "自建的随机图片，图库来自网络",
+        "avatar": "//tva1.sinaimg.cn/large/006SEBSaly1gzc3kf9eegj30qo0qo406.jpg"
+    },
+	{
         "name": "不知道放啥，先空着吧",
         "site": "",
         "info": "祝你早安午安晚安",
-        "avatar": "https://tva1.sinaimg.cn/large/006y8mN6ly1g9613jrgg4j30ku0ku452.jpg"
+        "avatar": "//tva1.sinaimg.cn/large/006y8mN6ly1g9613jrgg4j30ku0ku452.jpg"
     }
 ]
